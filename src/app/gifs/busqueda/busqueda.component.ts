@@ -26,7 +26,7 @@ export class BusquedaComponent {
     }
 
     this.gifService.buscarGifs(valor);
-    console.log(valor);
+    // console.log(valor);
 
     this.txtBuscar.nativeElement.value = '';
 
